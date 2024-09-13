@@ -1,0 +1,49 @@
+.NavConatiner nav {
+  background-color: #6f4c5b !important;
+  color: #fff;
+  border-radius: 20px;
+  top: 20px;
+  position: fixed;
+  width: 85%;
+  z-index: 100;
+}
+
+.NavConatiner nav a {
+  color: #fff;
+}
+.NavConatiner .navbar-nav {
+  display: flex;
+  align-items: center;
+}
+
+.NavConatiner .navbar-nav a:hover {
+  color: #deba9d;
+}
+.NavConatiner .navbar-nav .active {
+  color: #deba9d;
+}
+.NavConatiner .navbar-nav button {
+  background-color: #dbb482 !important;
+  border: none;
+}
+.NavConatiner .navbar-nav button:hover {
+  background-color: #d7ad76 !important;
+  border: none;
+}
+.NavConatiner .navbar-nav .dropdown-menu{
+               background-color: #6f4c5b;
+               margin-top: 12px;
+}
+.NavConatiner .navbar-nav .fa-phone{
+               padding-right:4px ;
+}
+
+@media (max-width: 432px) {
+  .NavConatiner nav {
+    width: 95%;
+  }
+  .NavConatiner nav a {
+    margin: 10px 0;
+    font-size: 18px;
+  }
+}

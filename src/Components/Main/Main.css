@@ -1,0 +1,36 @@
+.img-banner {
+  width: 100%;
+  position: relative;
+}
+.img-banner img {
+  width: 80%;
+  z-index: 2;
+  position: relative;
+}
+.Main {
+  padding-top: 152px;
+  background-color: #6f4c5b40;
+}
+
+.contentMain {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.contentMain button {
+  background-color: #dbb482 !important;
+  border: none;
+}
+
+.img-banner::after {
+  content: "";
+  background-color: #dbb482b5;
+  height: 425px;
+  display: inline-block;
+  width: 414px;
+  position: absolute;
+  left: 19px;
+  top: 82px;
+  border-radius: 114px 10px 114px 10px;
+  z-index: 0;
+}

@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "SUSE", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+:root {
+  --main-color: #6f4c5b;
+  --sec-color: #d7ad76;
+}
+
+img {
+  width: 100%;
+}
+::-webkit-scrollbar {
+  width: 12px; /* عرض الشريط الجانبي */
+}
+
+/* تخصيص الخلفية الخاصة بالشريط */
+::-webkit-scrollbar-track {
+  background:#6f4c5bad;
+}
+
+/* تخصيص مقبض الشريط */
+::-webkit-scrollbar-thumb {
+  background: #6f4c5b;
+}
+
+/* تخصيص المقبض عند التحويم */
+::-webkit-scrollbar-thumb:hover {
+  background: #4a333d;
+}

@@ -1,0 +1,12 @@
+.Home .swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.Home .swiper-slide {
+  font-size: 18px;
+  height: auto;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+ 
+}
