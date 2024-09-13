@@ -10,7 +10,11 @@ import wave from "../../assets/wave.png";
 // import required modules
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import MainSection from "./Main";
- import "./Main.css"
+import "./Main.css";
+import Doctor from "../../assets/doctor2.webp";
+import Doctor2 from "../../assets/doctor3.webp";
+import Doctor3 from "../../assets/h3-banner-003.webp";
+
 export default function AllMain() {
   return (
     <>
@@ -30,16 +34,22 @@ export default function AllMain() {
           className="mySwiper"
         >
           <SwiperSlide>
-            <MainSection></MainSection>
+            <MainSection
+              image={Doctor}
+              title="Protect Your Health And Take Care To Of Your Health"
+            ></MainSection>
           </SwiperSlide>
           <SwiperSlide>
-            <MainSection></MainSection>
+            <MainSection
+              image={Doctor2}
+              title="Look after your health and keep yourself in good condition"
+            ></MainSection>
           </SwiperSlide>
           <SwiperSlide>
-            <MainSection></MainSection>
-          </SwiperSlide>
-          <SwiperSlide>
-            <MainSection></MainSection>
+            <MainSection
+              image={Doctor3}
+              title="Preserve your well-being and prioritize your health"
+            ></MainSection>
           </SwiperSlide>
         </Swiper>
         <img src={wave} />
