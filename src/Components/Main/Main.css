@@ -25,7 +25,7 @@
 .img-banner::after {
   content: "";
   background-color: #dbb482b5;
-  height: 425px;
+  height: 85%;
   display: inline-block;
   width: 82%;
   position: absolute;
@@ -40,4 +40,20 @@
 }
 .swiper-pagination-bullet {
   display: none;
+}
+
+@media (max-width: 432px) {
+  .contentMain {
+    text-align: center;
+  }
+  .contentMain button {
+    margin: 10px 0;
+  }
+  .img-banner {
+    margin: 30px 0;
+  }
+
+  .img-banner::after {
+    height: 88%;
+  }
 }
