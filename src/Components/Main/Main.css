@@ -34,3 +34,10 @@
   border-radius: 114px 10px 114px 10px;
   z-index: 0;
 }
+.swiper-button-next,
+.swiper-button-prev {
+  color: #6f4c5b;
+}
+.swiper-pagination-bullet {
+  display: none;
+}

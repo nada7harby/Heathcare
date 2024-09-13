@@ -4,7 +4,7 @@ import "./Main.css";
 function MainSection() {
   return (
     <>
-      <div className="Main">
+      
         <Container>
           <Row>
             <Col className="contentMain">
@@ -22,8 +22,7 @@ function MainSection() {
             </Col>
           </Row>
         </Container>
-       
-      </div>
+      
     </>
   );
 }
