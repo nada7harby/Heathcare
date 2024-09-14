@@ -31,9 +31,31 @@
 
   border-radius: 0 41px 41px 0;
 }
+.about-content .icon:hover > i {
+  animation: moveicon .3s infinite;
+}
+@keyframes moveicon {
+  0% {
+    transform: translate(0px, 0);
+  }
+  50% {
+    transform: translate(10px, 0);
+  }
+  100% {
+    transform: translate(0px, 0);
+  }
+}
 .about-content .name-icon {
-  font-size: 22px;
+  font-size: 21px;
   color: #6f4c5b;
+}
+.about-content button {
+  background-color: #6f4c5b;
+  color: #fff;
+  border: none;
+}
+.about-content button:hover {
+  background-color: #94697c;
 }
 @media (max-width: 432px) {
   .about-content {
