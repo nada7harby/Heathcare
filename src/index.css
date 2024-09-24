@@ -7,6 +7,7 @@ body {
   font-optical-sizing: auto;
   font-weight: 700;
   font-style: normal;
+  /* background-color: #6f4c5b0f; */
 }
 
 html {
@@ -26,7 +27,7 @@ img {
 
 /* تخصيص الخلفية الخاصة بالشريط */
 ::-webkit-scrollbar-track {
-  background:#6f4c5bad;
+  background: #6f4c5bad;
 }
 
 /* تخصيص مقبض الشريط */
@@ -38,4 +39,3 @@ img {
 ::-webkit-scrollbar-thumb:hover {
   background: #4a333d;
 }
-
