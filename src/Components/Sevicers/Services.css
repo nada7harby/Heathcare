@@ -1,0 +1,19 @@
+.oneService {
+  padding: 20px;
+  border-radius: 20px;
+  background-color: #fff;
+  border: 1px solid;
+}
+
+.oneService .iconService {
+  padding: 30px;
+  border: 1px solid #6f4c5b;
+  border-radius: 20px;
+  width: 60%;
+  display: flex;
+  justify-content: center;
+}
+.oneService i {
+  color: #6f4c5b;
+  font-size: 25px;
+}
