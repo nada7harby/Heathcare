@@ -1,4 +1,4 @@
-import { Button, Col, Container, Row } from "react-bootstrap";
+import {  Col, Container, Row } from "react-bootstrap";
 import Service from "./Service";
 
 function Services() {
@@ -15,10 +15,10 @@ function Services() {
               believable
             </p>
             <div>
-              <button className="btn"> All services</button>
+              <button className="sevicessbtn"> All services</button>
             </div>
           </Col>
-          <Col lg={8}>
+          <Col lg={8} className="allServices mt-3">
             <Service></Service>
           </Col>
         </Row>

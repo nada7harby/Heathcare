@@ -19,9 +19,9 @@ function OneSevice() {
               but the or randomised look even slightly believable
             </p>
           </Col>
-          <Col xl={12}>
+          <Col xl={12} >
             <div>
-              <button>view</button>
+              <button className="viewbtn">view</button>
             </div>
           </Col>
         </Row>

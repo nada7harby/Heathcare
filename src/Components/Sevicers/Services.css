@@ -17,3 +17,53 @@
   color: #6f4c5b;
   font-size: 25px;
 }
+.allServices {
+  position: relative;
+}
+.allServices::after {
+  content: "";
+  width: 50%;
+  position: absolute;
+  background-color: #6f4c5b;
+  height: 129%;
+  top: -12%;
+  right: 0;
+  border-radius: 37px 0 0 37px;
+}
+.oneService .viewbtn {
+  background-color: #6f4c5b;
+  border: none;
+  color: #fff;
+  padding: 5px 15px;
+  border-radius: 10px;
+}
+.sevicessbtn {
+  background-color: #dbb482;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-size: 22px;
+  transition: 0.5s;
+}
+.viewbtn:hover{
+  animation: move 1s;
+}
+.sevicessbtn:hover {
+  background-color: #c6a06f;
+  animation: move 1s;
+}
+@keyframes move {
+  0% {
+    scale: 1;
+  }
+  40% {
+    scale: 1.3;
+  }
+  80% {
+    scale: 0.7;
+  }
+  100% {
+    scale: 1;
+  }
+}
