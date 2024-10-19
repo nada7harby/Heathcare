@@ -18,9 +18,9 @@ function Plans() {
             top: "2em",
           }}
         >
-          <Plan></Plan>
-          <Plan className="active"></Plan>
-          <Plan></Plan>
+          <Plan number="01" ></Plan>
+          <Plan className="active" number="02" ></Plan>
+          <Plan number="03" ></Plan>
         </Row>
       </Container>
     </>
